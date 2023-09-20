@@ -19,8 +19,9 @@ a {
 }
 
 /* HEADER */
-.section-1 { 
+.container { 
     background-color: #ff6900;
+    margin-bottom: 30px;
 }
 
 .navigation {
@@ -49,7 +50,7 @@ a {
 }
 
 /* MAIN */
-.container {
+.container-1 {
    width: 70%;
    margin: 0 auto;
 }
@@ -133,3 +134,35 @@ a {
 }
 
 /* FOOTER */
+.container-2 {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+h4 {
+    padding: 15px 0;
+}
+
+.link-footer {
+    display: flex;
+}
+
+.link-footer-1 {
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: .75rem;
+}
+
+.p-footer {
+    padding: 15px 0;
+}
+
+.footer-icons {
+    list-style-type: none;
+    padding-right: 20px;
+}
