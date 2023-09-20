@@ -13,6 +13,41 @@ img {
     max-width: 100%;    
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+.section-1 { 
+    background-color: #ff6900;
+}
+
+.navigation {
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    padding-top: 10px;
+}
+
+.boolean-logo {
+    width: 208px;
+    padding: 10px 0;
+}
+
+.link-nav {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
 /* MAIN */
 .container {
    width: 70%;
@@ -96,3 +131,5 @@ img {
 .overlap-1:hover {
     color: red;
 }
+
+/* FOOTER */
