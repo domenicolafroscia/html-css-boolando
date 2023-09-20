@@ -5,7 +5,94 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     max-width: 100%;    
 }
 
+/* MAIN */
+.container {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.flex {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 272px;
+    height: 460px;   
+    position: relative;   
+    margin: 20px 10px;              
+}
+
+.price {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.overlap {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 200;
+}
+
+.discount {
+    color: white;
+    font-size: .75rem;
+    background-color: red;
+    padding: 3px 10px;
+}
+
+.sustainability {
+    color: white;
+    font-size: .75rem;
+    background-color: green;
+    padding: 3px 10px;
+}
+
+.favourite {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1px 7px;
+}
+
+.overlap-1 {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 200;
+}
+
+.first-image {
+    position: relative;
+}
+
+.second-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.first-image:hover {
+    z-index: -1;
+}
+
+.second-image:hover {
+    z-index: 1;
+}
+
+.overlap-1:hover {
+    color: red;
+}
